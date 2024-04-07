@@ -1,8 +1,8 @@
-let titles_type = ["Dataset", "Survey", "Review", "Overview", "Research", "Technical"];
-let titles_model = ["BERT", "GPT", "Transformer", "CLIP"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
-let titles_theme = ["vision language model", "vision language interaction", "visual language model", "VLM"];
-let titles =  titles_model + titles_method + titles_type + titles_theme;
+let titles_type = ["Survey", "Review", "Overview", "Research", "Technical"];
+let titles_model = ["GPT", "Transformer", "CLIP"];
+// let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
+let titles_theme = ["vision language model", "vision language interaction", "visual language model", "VLM", "vision and language navigation", "manipulation"];
+let titles =  titles_model + titles_type + titles_theme;
 let authors_array = ["Feifei Li"];
 
 let conferences = [
